@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: aqua;
+}
+
+div.tittle
+{
+	color: black;
+	text-align: center;
+	font-size: 20pt;
+}
+
+div.flex
+{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+}
+
+div.box
+{
+	background-color: white;
+	padding: 15px;
+	border: solid;
+}
+
+
+div.box:hover
+{
+	cursor: pointer;
+	transform: scale(1.1)
+}
+
+
+
+div.nav
+{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+button.ab
+{
+	border: none;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin: 20px;
+	background-color: white;
+}
+
+button.fol
+{
+	border: none;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin: 20px;
+	background-color: white;
+}
+
+button.ab:hover
+{
+	cursor: pointer;
+	background-color: orangered;
+}
+
+
+button.fol:hover
+{
+	cursor: pointer;
+	background-color: orangered;
+}
